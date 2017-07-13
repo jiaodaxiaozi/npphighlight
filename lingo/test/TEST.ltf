@@ -1,0 +1,23 @@
+! Input a small model;
+MODEL:
+MAX = Y * X + 30 * Y;
+X <= 50;
+Y  <= 60;
+X + 2 * Y <= 120;
+@GIN(Y);
+END
+! Terse output mode;
+SET TERSEO 1
+! Solve the model;
+SET GLOBAL 1
+GO
+! Open a file;
+! DIVERT SOLUS.TXT;
+! Send solution to the file;
+SOLU
+! Close solution file;
+!RVRT;
+! Quit LINGO;
+!SMPS test.mps;
+GEN
+QUIT

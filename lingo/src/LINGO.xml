@@ -1,0 +1,3861 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+	<AutoComplete language="LINGO">
+		<Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" />
+		<KeyWord name="ABS" func="yes">
+			<Overload retVal="" descr="Return the absolute value of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="abs" func="yes">
+			<Overload retVal="" descr="Return the absolute value of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ABSINT" />
+		<KeyWord name="absint" />
+		<KeyWord name="ACOS" func="yes">
+			<Overload retVal="" descr="Return the inverse cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="acos" func="yes">
+			<Overload retVal="" descr="Return the inverse cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ACOSH" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="acosh" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALLDIFF" func="yes">
+			<Overload retVal="" descr="Mark a set of general integers to take different values">
+				<Param name="'set_name'" />
+                <Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="alldiff" func="yes">
+			<Overload retVal="" descr="Mark a set of general integers to take different values">
+				<Param name="'set_name'" />
+                <Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALTER" />
+		<KeyWord name="alter" />
+		<KeyWord name="AND" />
+		<KeyWord name="and" />
+		<KeyWord name="APISET" func="yes">
+			<Overload retVal="" descr="Change API parameters beyond standard LINGO set">
+				<Param name="param_index" />
+				<Param name="'int|double'" />
+				<Param name="parameter_value" />
+			</Overload>
+			<Overload retVal="" descr="Force all API parameters back to default values">
+				<Param name="'default'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="apiset" func="yes">
+			<Overload retVal="" descr="Change API parameters beyond standard LINGO set">
+				<Param name="param_index" />
+				<Param name="'int|double'" />
+				<Param name="parameter_value" />
+			</Overload>
+			<Overload retVal="" descr="Force all API parameters back to default values">
+				<Param name="'default'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ASIN" func="yes">
+			<Overload retVal="" descr="Return the inverse sine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="asin" func="yes">
+			<Overload retVal="" descr="Return the inverse sine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ASINH" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic sine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="asinh" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic sine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATAN" func="yes">
+			<Overload retVal="" descr="Return the inverse tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="atan" func="yes">
+			<Overload retVal="" descr="Return the inverse tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATAN2" func="yes">
+			<Overload retVal="" descr="Return the inverse tangent of y/x">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="atan2" func="yes">
+			<Overload retVal="" descr="Return the inverse tangent of y/x">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATANH" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="atanh" func="yes">
+			<Overload retVal="" descr="Return the inverse hyperbolic tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BASCTS" />
+		<KeyWord name="bascts" />
+		<KeyWord name="BCROSS" />
+		<KeyWord name="bcross" />
+		<KeyWord name="BIGMVL" />
+		<KeyWord name="bigmvl" />
+		<KeyWord name="BIN" func="yes">
+			<Overload retVal="" descr="Restrict variable to be a binary value">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bin" func="yes">
+			<Overload retVal="" descr="Restrict variable to be a binary value">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BLOCKROW" func="yes">
+			<Overload retVal="" descr="Assign rows to their respective blocks, used in conjunction with BNP solver">
+				<Param name="block_index" />
+				<Param name="row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="blockrow" func="yes">
+			<Overload retVal="" descr="Assign rows to their respective blocks, used in conjunction with BNP solver">
+				<Param name="block_index" />
+				<Param name="row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BND" func="yes">
+			<Overload retVal="" descr="Limit variable to being in range of [lower_bound, upper_bound]">
+				<Param name="lower_bound" />
+				<Param name="variable" />
+				<Param name="upper_bound" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bnd" func="yes">
+			<Overload retVal="" descr="Limit variable to being in range of [lower_bound, upper_bound]">
+				<Param name="lower_bound" />
+				<Param name="variable" />
+				<Param name="upper_bound" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BNPBLK" />
+		<KeyWord name="bnpblk" />
+		<KeyWord name="BNPHEU" />
+		<KeyWord name="bnpheu" />
+		<KeyWord name="BRANDR" />
+		<KeyWord name="brandr" />
+		<KeyWord name="BRANPR" />
+		<KeyWord name="branpr" />
+		<KeyWord name="BREAK" />
+		<KeyWord name="break" />
+		<KeyWord name="CALC" />
+		<KeyWord name="calc" />
+		<KeyWord name="CARD" func="yes">
+			<Overload retVal="" descr="Restrict that at most N of the variables in the set to be nonzero(i.e. cardinality)">
+				<Param name="'card_set_name'" />
+				<Param name="variable|n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="card" func="yes">
+			<Overload retVal="" descr="Restrict that at most N of the variables in the set to be nonzero(i.e. cardinality)">
+				<Param name="'card_set_name'" />
+				<Param name="variable|n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CAT" />
+		<KeyWord name="cat" />
+		<KeyWord name="CHARTBAR" func="yes">
+			<Overload retVal="" descr="Generate a bar chart of one or more attributes">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="attribute1[,...,'legendn',attributen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartbar" func="yes">
+			<Overload retVal="" descr="Generate a bar chart of one or more attributes">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="attribute1[,...,'legendn',attributen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTBUBBLE" func="yes">
+			<Overload retVal="" descr="Generate a series of bubbles">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="size1[,...,'legendn',xn,yn,sizen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartbubble" func="yes">
+			<Overload retVal="" descr="Generate a series of bubbles">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="size1[,...,'legendn',xn,yn,sizen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTCONTOUR" func="yes">
+			<Overload retVal="" descr="Generate a contour chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+				<Param name="y" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartcontour" func="yes">
+			<Overload retVal="" descr="Generate a contour chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+				<Param name="y" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTCURVE" func="yes">
+			<Overload retVal="" descr="Generate a chart of one or multiple curves">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1[,...,'legendn',xn,yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartcurve" func="yes">
+			<Overload retVal="" descr="Generate a chart of one or multiple curves">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1[,...,'legendn',xn,yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTHISTO" func="yes">
+			<Overload retVal="" descr="Generate a histogram chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend'" />
+				<Param name="[bins]" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charthisto" func="yes">
+			<Overload retVal="" descr="Generate a histogram chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend'" />
+				<Param name="[bins]" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTLINE" func="yes">
+			<Overload retVal="" descr="Generate a chart of one or multiple lines">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1[,...,'legendn',xn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartline" func="yes">
+			<Overload retVal="" descr="Generate a chart of one or multiple lines">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1[,...,'legendn',xn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTNETARC" func="yes">
+			<Overload retVal="" descr="Generate a chart of network(s) using one or multiple list(s) of 4-tuples">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="x2" />
+				<Param name="y2[,...,'legendn',x1n,y1n,x2n,y2n]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartnetarc" func="yes">
+			<Overload retVal="" descr="Generate a chart of network(s) using one or multiple list(s) of 4-tuples">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="x2" />
+				<Param name="y2[,...,'legendn',x1n,y1n,x2n,y2n]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTNETNODE" func="yes">
+			<Overload retVal="" descr="Generate a chart of network(s) using two or two times of lists of 2-tuples">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="i1" />
+				<Param name="j1[,...,'legendn',xn,yn,in,jn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartnetnode" func="yes">
+			<Overload retVal="" descr="Generate a chart of network(s) using two or two times of lists of 2-tuples">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1" />
+				<Param name="i1" />
+				<Param name="j1[,...,'legendn',xn,yn,in,jn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTPCONTOUR" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a contour chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+				<Param name="yl" />
+				<Param name="yu" />
+				<Param name="'legend'" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartpcontour" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a contour chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+				<Param name="yl" />
+				<Param name="yu" />
+				<Param name="'legend'" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTPCURVE" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a chart of one or multiple curves">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="'legend1'" />
+				<Param name="y1[,...,'legendn',yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartpcurve" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a chart of one or multiple curves">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="'legend1'" />
+				<Param name="y1[,...,'legendn',yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTPIE" func="yes">
+			<Overload retVal="" descr="Generate a pie chart">
+				<Param name="'title'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartpie" func="yes">
+			<Overload retVal="" descr="Generate a pie chart">
+				<Param name="'title'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTPSURFACE" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a surface chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+				<Param name="yl" />
+				<Param name="yu" />
+				<Param name="'legend'" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartpsurface" func="yes">
+			<Overload retVal="" descr="Use procedure to generate a surface chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+				<Param name="yl" />
+				<Param name="yu" />
+				<Param name="'legend'" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTRADAR" func="yes">
+			<Overload retVal="" descr="Generate a radar chart of one or multiple attributes">
+				<Param name="'title'" />
+				<Param name="'legend1'" />
+				<Param name="x1[,...,'legendn',xn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartradar" func="yes">
+			<Overload retVal="" descr="Generate a radar chart of one or multiple attributes">
+				<Param name="'title'" />
+				<Param name="'legend1'" />
+				<Param name="x1[,...,'legendn',xn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTSCATTER" func="yes">
+			<Overload retVal="" descr="Generate a scatter chart of one or multiple plots">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1[,...,'legendn',xn,yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartscatter" func="yes">
+			<Overload retVal="" descr="Generate a scatter chart of one or multiple plots">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'legend1'" />
+				<Param name="x1" />
+				<Param name="y1[,...,'legendn',xn,yn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTSPACETIME" func="yes">
+			<Overload retVal="" descr="Generate a spacetime chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+                <Param name="'z-axis label'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+				<Param name="y" />
+                <Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartspacetime" func="yes">
+			<Overload retVal="" descr="Generate a spacetime chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="x" />
+				<Param name="y" />
+                <Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTSURFACE" func="yes">
+			<Overload retVal="" descr="Generate a surface chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+				<Param name="y" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chartsurface" func="yes">
+			<Overload retVal="" descr="Generate a surface chart">
+				<Param name="'title'" />
+				<Param name="'x-axis label'" />
+				<Param name="'y-axis label'" />
+				<Param name="'z-axis label'" />
+				<Param name="'legend'" />
+				<Param name="x" />
+				<Param name="y" />
+				<Param name="z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHARTTORNADO" func="yes">
+		    <Overload retVal="" descr="Generate a tornado chart">
+			    <Param name="'title'"/>
+				<Param name="'x-axis label'"/>
+				<Param name="'y-axis label'"/>
+				<Param name="base"/>
+				<Param name="'legend high"/>
+				<Param name="high"/>
+				<Param name="'legend low'"/>
+				<Param name="low"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charttornado" func="yes">
+		    <Overload retVal="" descr="Generate a tornado chart">
+			    <Param name="'title'"/>
+				<Param name="'x-axis label'"/>
+				<Param name="'y-axis label'"/>
+				<Param name="base"/>
+				<Param name="'legend high"/>
+				<Param name="high"/>
+				<Param name="'legend low'"/>
+				<Param name="low"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHKDUP" />
+		<KeyWord name="chkdup" />
+		<KeyWord name="CHOLESKY" func="yes">
+		    <Overload retVal="l[,err] =" descr="Cholesky factorization of the symmetric, positive definite matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cholesky" func="yes">
+		    <Overload retVal="l[,err] =" descr="Cholesky factorization of the symmetric, positive definite matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COFCTS" />
+		<KeyWord name="cofcts" />
+		<KeyWord name="COM" />
+		<KeyWord name="com" />
+		<KeyWord name="COS" func="yes">
+			<Overload retVal="" descr="Return the cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cos" func="yes">
+			<Overload retVal="" descr="Return the cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COSH" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cosh" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic cosine of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CUTAPP" />
+		<KeyWord name="cutapp" />
+		<KeyWord name="CUTOFF" />
+		<KeyWord name="cutoff" />
+		<KeyWord name="DATA" />
+		<KeyWord name="data" />
+		<KeyWord name="DBGCLD" />
+		<KeyWord name="dbgcld" />
+		<KeyWord name="DBGLVL" />
+		<KeyWord name="dbglvl" />
+		<KeyWord name="DBGWRM" />
+		<KeyWord name="dbgwrm" />
+		<KeyWord name="DBPWD" />
+		<KeyWord name="dbpwd" />
+		<KeyWord name="DBUID" />
+		<KeyWord name="dbuid" />
+		<KeyWord name="DEBUG" func="yes">
+			<Overload retVal="" descr="Debug one or multiple submodels">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="debug" func="yes">
+			<Overload retVal="" descr="Debug one or multiple submodels">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DECOMP" />
+		<KeyWord name="decomp" />
+		<KeyWord name="DEFAULT" />
+		<KeyWord name="default" />
+		<KeyWord name="DELETE" />
+		<KeyWord name="delete" />
+		<KeyWord name="DERCMP" />
+		<KeyWord name="dercmp" />
+		<KeyWord name="DETERMINANT" func="yes">
+		    <Overload retVal="det =" descr="Calculate determinant value for matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="determinant" func="yes">
+		    <Overload retVal="det =" descr="Calculate determinant value for matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DISCTS" />
+		<KeyWord name="discts" />
+		<KeyWord name="DIVERT" func="yes">
+			<Overload retVal="" descr="Divert outputs to file, 'a' means append, default action is overwrite">
+				<Param name="['filename'[,'a']]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="divert" func="yes">
+			<Overload retVal="" descr="Divert outputs to file, 'a' means append, default action is overwrite">
+				<Param name="['filename'[,'a']]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DUAL" func="yes">
+			<Overload retVal="" descr="Output the dual value of a variable or a row">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dual" func="yes">
+			<Overload retVal="" descr="Output the dual value of a variable or a row">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DUALCO" />
+		<KeyWord name="dualco" />
+		<KeyWord name="DUALPR" />
+		<KeyWord name="dualpr" />
+		<KeyWord name="ECHOIN" />
+		<KeyWord name="echoin" />
+		<KeyWord name="EIGEN" func="yes">
+		    <Overload retVal="lambdar, vr, lambdai, vi, err =" descr="Calculate eigenvectors and eigenvalues for the matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eigen" func="yes">
+		    <Overload retVal="lambdar, vr, lambdai, vi, err =" descr="Calculate eigenvectors and eigenvalues for the matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ELSE" func="yes">
+			<Overload retVal="" descr="Provide conditional IF/THEN/ELSE branching capabilities">
+				<Param name="statement_1[;...;statement_n;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="else" func="yes">
+			<Overload retVal="" descr="Provide conditional IF/THEN/ELSE branching capabilities">
+				<Param name="statement_1[;...;statement_n;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="END" />
+		<KeyWord name="end" />
+		<KeyWord name="ENDCALC" />
+		<KeyWord name="endcalc" />
+		<KeyWord name="ENDDATA" />
+		<KeyWord name="enddata" />
+		<KeyWord name="ENDIF" />
+		<KeyWord name="endif" />
+		<KeyWord name="ENDINIT" />
+		<KeyWord name="endinit" />
+		<KeyWord name="ENDPROCEDURE" />
+		<KeyWord name="endprocedure" />
+		<KeyWord name="ENDSETS" />
+		<KeyWord name="endsets" />
+		<KeyWord name="ENDSUBMODEL" />
+		<KeyWord name="endsubmodel" />
+		<KeyWord name="EQ" />
+		<KeyWord name="eq" />
+		<KeyWord name="ERRDLG" />
+		<KeyWord name="errdlg" />
+		<KeyWord name="EXP" func="yes">
+			<Overload retVal="" descr="Return natural exponential of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exp" func="yes">
+			<Overload retVal="" descr="Return natural exponential of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EXTEND" />
+		<KeyWord name="extend" />
+		<KeyWord name="FILE" func="yes">
+			<Overload retVal="" descr="Include data from external text files">
+				<Param name="'filename'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="file" func="yes">
+			<Overload retVal="" descr="Include data from external text files">
+				<Param name="'filename'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FILFMT" />
+		<KeyWord name="filfmt" />
+		<KeyWord name="FILOUT" />
+		<KeyWord name="filout" />
+		<KeyWord name="FLFTOL" />
+		<KeyWord name="flftol" />
+		<KeyWord name="FLOOR" func="yes">
+			<Overload retVal="" descr="Return the integer part of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="floor" func="yes">
+			<Overload retVal="" descr="Return the integer part of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FLWCTS" />
+		<KeyWord name="flwcts" />
+		<KeyWord name="FNFTOL" />
+		<KeyWord name="fnftol" />
+		<KeyWord name="FOR" func="yes">
+			<Overload retVal="" descr="Generate the expressions contained in exp_list for all members of the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:exp_list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="for" func="yes">
+			<Overload retVal="" descr="Generate the expressions contained in exp_list for all members of the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:exp_list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FORCEB" />
+		<KeyWord name="forceb" />
+		<KeyWord name="FORMAT" func="yes">
+			<Overload retVal="" descr="Format a numeric or string value for output as text">
+				<Param name="value" />
+				<Param name="format_descriptor" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="format" func="yes">
+			<Overload retVal="" descr="Format a numeric or string value for output as text">
+				<Param name="value" />
+				<Param name="format_descriptor" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FPA" func="yes">
+			<Overload retVal="" descr="Return the present value of an annuity">
+				<Param name="i" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fpa" func="yes">
+			<Overload retVal="" descr="Return the present value of an annuity">
+				<Param name="i" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FPL" func="yes">
+			<Overload retVal="" descr="Returns the present value of a lump sum of N periods from now">
+				<Param name="i" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fpl" func="yes">
+			<Overload retVal="" descr="Returns the present value of a lump sum of N periods from now">
+				<Param name="i" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FREE" func="yes">
+			<Overload retVal="" descr="Allow variable to take any positive or negative value">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="free" func="yes">
+			<Overload retVal="" descr="Allow variable to take any positive or negative value">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FREEZE" />
+		<KeyWord name="freeze" />
+		<KeyWord name="FRMPS" />
+		<KeyWord name="frmps" />
+		<KeyWord name="GCDCTS" />
+		<KeyWord name="gcdcts" />
+		<KeyWord name="GE" />
+		<KeyWord name="ge" />
+		<KeyWord name="GEN" func="yes">
+			<Overload retVal="" descr="Generate a model and display the generated expressions">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gen" func="yes">
+			<Overload retVal="" descr="Generate a model and display the generated expressions">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GENDUAL" func="yes">
+			<Overload retVal="" descr="Generate the dual formulation of a linear model and display the generated expressions">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gendual" func="yes">
+			<Overload retVal="" descr="Generate the dual formulation of a linear model and display the generated expressions">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GIN" func="yes">
+			<Overload retVal="" descr="Restrict variable to general integer values">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gin" func="yes">
+			<Overload retVal="" descr="Restrict variable to general integer values">
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GLBBRN" />
+		<KeyWord name="glbbrn" />
+		<KeyWord name="GLBBXS" />
+		<KeyWord name="glbbxs" />
+		<KeyWord name="GLBDLT" />
+		<KeyWord name="glbdlt" />
+		<KeyWord name="GLBOPT" />
+		<KeyWord name="glbopt" />
+		<KeyWord name="GLBREF" />
+		<KeyWord name="glbref" />
+		<KeyWord name="GLBUBD" />
+		<KeyWord name="glbubd" />
+		<KeyWord name="GLBVBD" />
+		<KeyWord name="glbvbd" />
+		<KeyWord name="GLOBAL" />
+		<KeyWord name="global" />
+		<KeyWord name="GO" />
+		<KeyWord name="go" />
+		<KeyWord name="GOMCTS" />
+		<KeyWord name="gomcts" />
+		<KeyWord name="GUBCTS" />
+		<KeyWord name="gubcts" />
+		<KeyWord name="HELP" />
+		<KeyWord name="help" />
+		<KeyWord name="HEUCUT" />
+		<KeyWord name="heucut" />
+		<KeyWord name="HEURIS" />
+		<KeyWord name="heuris" />
+		<KeyWord name="HIDE" />
+		<KeyWord name="hide" />
+		<KeyWord name="HUMNTM" />
+		<KeyWord name="humntm" />
+		<KeyWord name="HURDLE" />
+		<KeyWord name="hurdle" />
+		<KeyWord name="IF" func="yes">
+			<Overload retVal="" descr="Evaluate logical_condition, if true, returns true_result, otherwise returns false_result">
+				<Param name="logical_condition" />
+				<Param name="true_result" />
+				<Param name="false_result" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="if" func="yes">
+			<Overload retVal="" descr="Evaluate logical_condition, if true, returns true_result, otherwise returns false_result">
+				<Param name="logical_condition" />
+				<Param name="true_result" />
+				<Param name="false_result" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IFC" func="yes">
+			<Overload retVal="" descr="Provide conditional if/then/else branching capabilities">
+				<Param name="conditional_exp:statement_1[;...;statement_n;] [@ELSE statement_1[;...;statement_n;]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ifc" func="yes">
+			<Overload retVal="" descr="Provide conditional if/then/else branching capabilities">
+				<Param name="conditional_exp:statement_1[;...;statement_n;] [@ELSE statement_1[;...;statement_n;]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ILFTOL" />
+		<KeyWord name="ilftol" />
+		<KeyWord name="IN" func="yes">
+			<Overload retVal="" descr="Determine if a set element is contained in a set">
+				<Param name="set_name" />
+				<Param name="primitive_1_index[,primitive_2_index,...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="in" func="yes">
+			<Overload retVal="" descr="Determine if a set element is contained in a set">
+				<Param name="set_name" />
+				<Param name="primitive_1_index[,primitive_2_index,...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INDEX" func="yes">
+			<Overload retVal="" descr="Return the index of a set element within its set">
+				<Param name="set_name" />
+				<Param name="set_member" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="index" func="yes">
+			<Overload retVal="" descr="Return the index of a set element within its set">
+				<Param name="set_name" />
+				<Param name="set_member" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INFTOL" />
+		<KeyWord name="inftol" />
+		<KeyWord name="INIT" />
+		<KeyWord name="init" />
+		<KeyWord name="INSERT" func="yes">
+			<Overload retVal="" descr="Dynamically add set members to a derived set">
+				<Param name="set_name" />
+				<Param name="primitive_1_index[,primitive_2_index,...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="insert" func="yes">
+			<Overload retVal="" descr="Dynamically add set members to a derived set">
+				<Param name="set_name" />
+				<Param name="primitive_1_index[,primitive_2_index,...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INT" func="yes">
+			<Overload retVal="" descr="Return the largest integer that less than x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="int" func="yes">
+			<Overload retVal="" descr="Return the largest integer that less than x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INTEGRAL" func="yes">
+			<Overload retVal="" descr="Perform numeric integration using a variant of Simpson's rule">
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="integral" func="yes">
+			<Overload retVal="" descr="Perform numeric integration using a variant of Simpson's rule">
+				<Param name="procedure" />
+				<Param name="x" />
+				<Param name="xl" />
+				<Param name="xu" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INVERSE" func="yes">
+		    <Overload retVal="ainv[,err] =" descr="Return the inverse of the matrix a">
+			    <Param name="a"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inverse" func="yes">
+		    <Overload retVal="ainv[,err] =" descr="Return the inverse of the matrix a">
+			    <Param name="a"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IPTOLA" />
+		<KeyWord name="iptola" />
+		<KeyWord name="IPTOLR" />
+		<KeyWord name="iptolr" />
+		<KeyWord name="ITERS" func="yes">
+			<Overload retVal="" descr="Return the total number of iterations required to solve the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iters" func="yes">
+			<Overload retVal="" descr="Return the total number of iterations required to solve the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ITRLIM" />
+		<KeyWord name="itrlim" />
+		<KeyWord name="ITRSLW" />
+		<KeyWord name="itrslw" />
+		<KeyWord name="KBESTS" />
+		<KeyWord name="kbests" />
+		<KeyWord name="KILLSC" />
+		<KeyWord name="killsc" />
+		<KeyWord name="KNPCTS" />
+		<KeyWord name="knpcts" />
+		<KeyWord name="LATCTS" />
+		<KeyWord name="latcts" />
+		<KeyWord name="LCORE1" />
+		<KeyWord name="lcore1" />
+		<KeyWord name="LCORE2" />
+		<KeyWord name="lcore2" />
+		<KeyWord name="LCORE3" />
+		<KeyWord name="lcore3" />
+		<KeyWord name="LCORE4" />
+		<KeyWord name="lcore4" />
+		<KeyWord name="LCORES" />
+		<KeyWord name="lcores" />
+		<KeyWord name="LCRASH" />
+		<KeyWord name="lcrash" />
+		<KeyWord name="LE" />
+		<KeyWord name="le" />
+		<KeyWord name="LENPAG" />
+		<KeyWord name="lenpag" />
+		<KeyWord name="LFTCTS" />
+		<KeyWord name="lftcts" />
+		<KeyWord name="LGM" func="yes">
+			<Overload retVal="" descr="Return the natural logarithm of the gamma function of x, extend to non-integer values by linear interpolation">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lgm" func="yes">
+			<Overload retVal="" descr="Return the natural logarithm of the gamma function of x, extend to non-integer values by linear interpolation">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LINEAR" />
+		<KeyWord name="linear" />
+		<KeyWord name="LINLEN" />
+		<KeyWord name="linlen" />
+		<KeyWord name="LISTFIX" />
+		<KeyWord name="listfix" />
+		<KeyWord name="LNBIGM" />
+		<KeyWord name="lnbigm" />
+		<KeyWord name="LNDLTA" />
+		<KeyWord name="lndlta" />
+		<KeyWord name="LNRISE" />
+		<KeyWord name="lnrise" />
+		<KeyWord name="LOG" func="yes">
+			<Overload retVal="" descr="Return the natural logarithm of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="log" func="yes">
+			<Overload retVal="" descr="Return the natural logarithm of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOG10" func="yes">
+			<Overload retVal="" descr="Return the base 10 logarithm of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="log10" func="yes">
+			<Overload retVal="" descr="Return the base 10 logarithm of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOGB" func="yes">
+			<Overload retVal="" descr="Return the base b logarithm of x">
+				<Param name="x" />
+				<Param name="b" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="logb" func="yes">
+			<Overload retVal="" descr="Return the base b logarithm of x">
+				<Param name="x" />
+				<Param name="b" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOOK" />
+		<KeyWord name="look" />
+		<KeyWord name="LOOPOP" />
+		<KeyWord name="loopop" />
+		<KeyWord name="LOPTOL" />
+		<KeyWord name="loptol" />
+		<KeyWord name="LOWMEM" />
+		<KeyWord name="lowmem" />
+		<KeyWord name="LT" />
+		<KeyWord name="lt" />
+		<KeyWord name="MAX" func="yes">
+			<Overload retVal="" descr="Find the maximum of an expression over members of a set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max" func="yes">
+			<Overload retVal="" descr="Find the maximum of an expression over members of a set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MAXCTP" />
+		<KeyWord name="maxctp" />
+		<KeyWord name="MAXCTR" />
+		<KeyWord name="maxctr" />
+		<KeyWord name="MEM" />
+		<KeyWord name="mem" />
+		<KeyWord name="MERGEN" />
+		<KeyWord name="mergen" />
+		<KeyWord name="MIN" func="yes">
+			<Overload retVal="" descr="Find the minimum of an expression over members of a set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min" func="yes">
+			<Overload retVal="" descr="Find the minimum of an expression over members of a set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MOD" func="yes">
+			<Overload retVal="" descr="Return the remainder of an integer divide of x by y">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mod" func="yes">
+			<Overload retVal="" descr="Return the remainder of an integer divide of x by y">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MODEL" />
+		<KeyWord name="model" />
+		<KeyWord name="MTMODE" />
+		<KeyWord name="mtmode" />
+		<KeyWord name="MTXMUL" func="yes">
+			<Overload retVal="a =" descr="Return the result of matrix b multiples matrix c">
+				<Param name="b" />
+				<Param name="c" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mtxmul" func="yes">
+			<Overload retVal="a =" descr="Return the result of matrix b multiples matrix c">
+				<Param name="b" />
+				<Param name="c" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MULTIS" />
+		<KeyWord name="multis" />
+		<KeyWord name="MXMEMB" />
+		<KeyWord name="mxmemb" />
+		<KeyWord name="NAME" func="yes">
+			<Overload retVal="" descr="Return the name of a variable or row as text">
+				<Param name="variable_or_reference" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="name" func="yes">
+			<Overload retVal="" descr="Return the name of a variable or row as text">
+				<Param name="variable_or_reference" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NCRASH" />
+		<KeyWord name="ncrash" />
+		<KeyWord name="NE" />
+		<KeyWord name="ne" />
+		<KeyWord name="NEWLINE" func="yes">
+			<Overload retVal="" descr="Write n new lines to the output device">
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="newline" func="yes">
+			<Overload retVal="" descr="Write n new lines to the output device">
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NEXTKBEST" func="yes">
+			<Overload retVal="" descr="Find the next best solution of binary integer model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nextkbest" func="yes">
+			<Overload retVal="" descr="Find the next best solution of binary integer model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NODESL" />
+		<KeyWord name="nodesl" />
+		<KeyWord name="NONNEG" />
+		<KeyWord name="nonneg" />
+		<KeyWord name="NONZ" />
+		<KeyWord name="nonz" />
+		<KeyWord name="NOPTOL" />
+		<KeyWord name="noptol" />
+		<KeyWord name="NORMINV" func="yes">
+			<Overload retVal="" descr="The inverse of the normal cumulative distribution, being replaced by @PNORMINV">
+				<Param name="probability" />
+				<Param name="mu" />
+				<Param name="sigma" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="norminv" func="yes">
+			<Overload retVal="" descr="The inverse of the normal cumulative distribution, being replaced by @pnorminv">
+				<Param name="probability" />
+				<Param name="mu" />
+				<Param name="sigma" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NORMSINV" func="yes">
+			<Overload retVal="" descr="The inverse of the standard normal cumulative distribution">
+				<Param name="probability" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="normsinv" func="yes">
+			<Overload retVal="" descr="The inverse of the standard normal cumulative distribution">
+				<Param name="probability" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NOT" />
+		<KeyWord name="not" />
+		<KeyWord name="NSLPDR" />
+		<KeyWord name="nslpdr" />
+		<KeyWord name="NSLPSV" />
+		<KeyWord name="nslpsv" />
+		<KeyWord name="NSTEEP" />
+		<KeyWord name="nsteep" />
+		<KeyWord name="NTHRDS" />
+		<KeyWord name="nthrds" />
+		<KeyWord name="NUMBIN" />
+		<KeyWord name="numbin" />
+		<KeyWord name="OBJBND" func="yes">
+			<Overload retVal="" descr="Return the bound on the objective value">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="objbnd" func="yes">
+			<Overload retVal="" descr="Return the bound on the objective value">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OBJCTS" />
+		<KeyWord name="objcts" />
+		<KeyWord name="ODBC" func="yes">
+			<Overload retVal="" descr="Import data from and export data to any ODBC data source, Windows platform only">
+				<Param name="['data_source'[,'table_name'[,'col_1'[,'col_2',...]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="odbc" func="yes">
+			<Overload retVal="" descr="Import data from and export data to any ODBC data source, Windows platform only">
+				<Param name="['data_source'[,'table_name'[,'col_1'[,'col_2',...]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OLE" func="yes">
+			<Overload retVal="" descr="Move data and solutions back and forth from Excel using OLE based transfers">
+				<Param name="['workbook_file'][,range_name_list]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ole" func="yes">
+			<Overload retVal="" descr="Move data and solutions back and forth from Excel using OLE based transfers">
+				<Param name="['workbook_file'][,range_name_list]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OR" />
+		<KeyWord name="or" />
+		<KeyWord name="OROUTE" />
+		<KeyWord name="oroute" />
+		<KeyWord name="PAGE" />
+		<KeyWord name="page" />
+		<KeyWord name="PAUSE" func="yes">
+			<Overload retVal="" descr="Pause execution and wait for a user response">
+				<Param name="'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pause" func="yes">
+			<Overload retVal="" descr="Pause execution and wait for a user response">
+				<Param name="'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBETACDF" func="yes">
+			<Overload retVal="" descr="The beta cumulative distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbetacdf" func="yes">
+			<Overload retVal="" descr="The beta cumulative distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBETAINV" func="yes">
+			<Overload retVal="" descr="The inverse of beta cumulative distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbetainv" func="yes">
+			<Overload retVal="" descr="The inverse of beta cumulative distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBETAPDF" func="yes">
+			<Overload retVal="" descr="The beta probability distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbetapdf" func="yes">
+			<Overload retVal="" descr="The beta probability distribution">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBINOCDF" func="yes">
+			<Overload retVal="" descr="The binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbinocdf" func="yes">
+			<Overload retVal="" descr="The binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBINOINV" func="yes">
+			<Overload retVal="" descr="The inverse of binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbinoinv" func="yes">
+			<Overload retVal="" descr="The inverse of binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBINOPDF" func="yes">
+			<Overload retVal="" descr="The binomial probability distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbinopdf" func="yes">
+			<Overload retVal="" descr="The binomial probability distribution">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBN" func="yes">
+			<Overload retVal="" descr="The cumulative binomial probability, being replaced by @PBINOCDF">
+				<Param name="p_defective" />
+				<Param name="n_samples" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbn" func="yes">
+			<Overload retVal="" descr="The cumulative binomial probability, being replaced by @pbinocdf">
+				<Param name="p_defective" />
+				<Param name="n_samples" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBTBNCDF" func="yes">
+			<Overload retVal="" descr="The beta binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbtbncdf" func="yes">
+			<Overload retVal="" descr="The beta binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBTBNINV" func="yes">
+			<Overload retVal="" descr="The inverse of beta binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbtbninv" func="yes">
+			<Overload retVal="" descr="The inverse of beta binomial cumulative distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PBTBNPDF" func="yes">
+			<Overload retVal="" descr="The beta binomial probability distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pbtbnpdf" func="yes">
+			<Overload retVal="" descr="The beta binomial probability distribution">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCACYCDF" func="yes">
+			<Overload retVal="" descr="The cauchy cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pcacycdf" func="yes">
+			<Overload retVal="" descr="The cauchy cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCACYINV" func="yes">
+			<Overload retVal="" descr="The inverse of cauchy cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pcacyinv" func="yes">
+			<Overload retVal="" descr="The inverse of cauchy cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCACYPDF" func="yes">
+			<Overload retVal="" descr="The cauchy probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pcacypdf" func="yes">
+			<Overload retVal="" descr="The cauchy probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCHISCDF" func="yes">
+			<Overload retVal="" descr="The chi-square cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pchiscdf" func="yes">
+			<Overload retVal="" descr="The chi-square cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCHISINV" func="yes">
+			<Overload retVal="" descr="The inverse of chi-square cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pchisinv" func="yes">
+			<Overload retVal="" descr="The inverse of chi-square cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCHISPDF" func="yes">
+			<Overload retVal="" descr="The chi-square probability distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pchispdf" func="yes">
+			<Overload retVal="" descr="The chi-square probability distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PCX" func="yes">
+			<Overload retVal="" descr="The chi-square cumulative distribution, being replaced by @PCHISCDF">
+				<Param name="n_df" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pcx" func="yes">
+			<Overload retVal="" descr="The chi-square cumulative distribution, being replaced by @PCHISCDF">
+				<Param name="n_df" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PEB" func="yes">
+			<Overload retVal="" descr="Erlang’s busy probability for a service system with infinite queue allowed">
+				<Param name="a_arrivingload" />
+				<Param name="x_servers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="peb" func="yes">
+			<Overload retVal="" descr="Erlang’s busy probability for a service system with infinite queue allowed">
+				<Param name="a_arrivingload" />
+				<Param name="x_servers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PEL" func="yes">
+			<Overload retVal="" descr="Erlang’s loss probability for a service system with no queue allowed">
+				<Param name="a_arrivingload" />
+				<Param name="x_servers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pel" func="yes">
+			<Overload retVal="" descr="Erlang’s loss probability for a service system with no queue allowed">
+				<Param name="a_arrivingload" />
+				<Param name="x_servers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PEXPOCDF" func="yes">
+			<Overload retVal="" descr="The exponential cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pexpocdf" func="yes">
+			<Overload retVal="" descr="The exponential cumulative distribution">
+				<Param name="lamda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PEXPOINV" func="yes">
+			<Overload retVal="" descr="The inverse of exponential cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pexpoinv" func="yes">
+			<Overload retVal="" descr="The inverse of exponential cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PEXPOPDF" func="yes">
+			<Overload retVal="" descr="The exponential probability distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pexpopdf" func="yes">
+			<Overload retVal="" descr="The exponential probability distribution">
+				<Param name="lamda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PFD" func="yes">
+			<Overload retVal="" descr="The F cumulative distribution, being replaced by @PFDSTCDF">
+				<Param name="n_df_numerator" />
+				<Param name="d_df_denominator" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pfd" func="yes">
+			<Overload retVal="" descr="The F cumulative distribution, being replaced by @pfdstcdf">
+				<Param name="n_df_numerator" />
+				<Param name="d_df_denominator" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PFDSTCDF" func="yes">
+			<Overload retVal="" descr="The F cumulative distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pfdstcdf" func="yes">
+			<Overload retVal="" descr="The F cumulative distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PFDSTINV" func="yes">
+			<Overload retVal="" descr="The inverse of F cumulative distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pfdstinv" func="yes">
+			<Overload retVal="" descr="The inverse of F cumulative distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PFDSTPDF" func="yes">
+			<Overload retVal="" descr="The F probability distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pfdstpdf" func="yes">
+			<Overload retVal="" descr="The F probability distribution">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PFS" func="yes">
+			<Overload retVal="" descr="Return the expected number of customers waiting for or under repair in a finite source Poisson service system">
+				<Param name="a_loads" />
+				<Param name="x_servers" />
+				<Param name="c_customers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pfs" func="yes">
+			<Overload retVal="" descr="Return the expected number of customers waiting for or under repair in a finite source Poisson service system">
+				<Param name="a_loads" />
+				<Param name="x_servers" />
+				<Param name="c_customers" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGAMMCDF" func="yes">
+			<Overload retVal="" descr="The gamma cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgammcdf" func="yes">
+			<Overload retVal="" descr="The gamma cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGAMMINV" func="yes">
+			<Overload retVal="" descr="The inverse of gamma cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgamminv" func="yes">
+			<Overload retVal="" descr="The inverse of gamma cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGAMMPDF" func="yes">
+			<Overload retVal="" descr="The gamma probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgammpdf" func="yes">
+			<Overload retVal="" descr="The gamma probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGEOMCDF" func="yes">
+			<Overload retVal="" descr="The geometric cumulative distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgeomcdf" func="yes">
+			<Overload retVal="" descr="The geometric cumulative distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGEOMINV" func="yes">
+			<Overload retVal="" descr="The inverse of geometric cumulative distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgeominv" func="yes">
+			<Overload retVal="" descr="The inverse of geometric cumulative distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGEOMPDF" func="yes">
+			<Overload retVal="" descr="The geometric probability distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgeompdf" func="yes">
+			<Overload retVal="" descr="The geometric probability distribution">
+				<Param name="prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGMBLCDF" func="yes">
+			<Overload retVal="" descr="The gumbel cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgmblcdf" func="yes">
+			<Overload retVal="" descr="The gumbel cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGMBLINV" func="yes">
+			<Overload retVal="" descr="The inverse of gumbel cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgmblinv" func="yes">
+			<Overload retVal="" descr="The inverse of gumbel cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PGMBLPDF" func="yes">
+			<Overload retVal="" descr="The gumbel probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pgmblpdf" func="yes">
+			<Overload retVal="" descr="The gumbel probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PHG" func="yes">
+			<Overload retVal="" descr="The hypergeometric cumulative distribution, being replaced by @PHYPGCDF">
+				<Param name="pop_size" />
+				<Param name="g_pop_good" />
+				<Param name="n_items" />
+				<Param name="x_samp_good" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="phg" func="yes">
+			<Overload retVal="" descr="The hypergeometric cumulative distribution, being replaced by @phypgcdf">
+				<Param name="pop_size" />
+				<Param name="g_pop_good" />
+				<Param name="n_items" />
+				<Param name="x_samp_good" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PHYPGCDF" func="yes">
+			<Overload retVal="" descr="The hypergeometric cumulative distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="phypgcdf" func="yes">
+			<Overload retVal="" descr="The hypergeometric cumulative distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PHYPGINV" func="yes">
+			<Overload retVal="" descr="The inverse of hypergeometric cumulative distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="phypginv" func="yes">
+			<Overload retVal="" descr="The inverse of hypergeometric cumulative distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PHYPGPDF" func="yes">
+			<Overload retVal="" descr="The hypergeometric probability distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="phypgpdf" func="yes">
+			<Overload retVal="" descr="The hypergeometric probability distribution">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PI" func="yes">
+			<Overload retVal="" descr="Return the value of 'Pi'">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pi" func="yes">
+			<Overload retVal="" descr="Return the value of 'Pi'">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PIC" func="yes">
+			<Overload retVal="" descr="Display a matrix picture of a model">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pic" func="yes">
+			<Overload retVal="" descr="Display a matrix picture of a model">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PICTURE" />
+		<KeyWord name="picture" />
+		<KeyWord name="PLAPLCDF" func="yes">
+			<Overload retVal="" descr="The laplace cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plaplcdf" func="yes">
+			<Overload retVal="" descr="The laplace cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLAPLINV" func="yes">
+			<Overload retVal="" descr="The inverse of laplace cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plaplinv" func="yes">
+			<Overload retVal="" descr="The inverse of laplace cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLAPLPDF" func="yes">
+			<Overload retVal="" descr="The laplace probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plaplpdf" func="yes">
+			<Overload retVal="" descr="The laplace probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLGSTCDF" func="yes">
+			<Overload retVal="" descr="The logistic cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plgstcdf" func="yes">
+			<Overload retVal="" descr="The logistic cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLGSTINV" func="yes">
+			<Overload retVal="" descr="The inverse of logistic cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plgstinv" func="yes">
+			<Overload retVal="" descr="The inverse of logistic cumulative distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLGSTPDF" func="yes">
+			<Overload retVal="" descr="The logistic probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plgstpdf" func="yes">
+			<Overload retVal="" descr="The logistic probability distribution">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOCTS" />
+		<KeyWord name="plocts" />
+		<KeyWord name="PLOGNCDF" func="yes">
+			<Overload retVal="" descr="The lognormal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plogncdf" func="yes">
+			<Overload retVal="" descr="The lognormal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOGNINV" func="yes">
+			<Overload retVal="" descr="The inverse of lognormal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plogninv" func="yes">
+			<Overload retVal="" descr="The inverse of lognormal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOGNPDF" func="yes">
+			<Overload retVal="" descr="The lognormal probability distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plognpdf" func="yes">
+			<Overload retVal="" descr="The lognormal probability distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOGRCDF" func="yes">
+			<Overload retVal="" descr="The logarithmic cumulative distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plogrcdf" func="yes">
+			<Overload retVal="" descr="The logarithmic cumulative distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOGRINV" func="yes">
+			<Overload retVal="" descr="The inverse of logarithmic cumulative distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plogrinv" func="yes">
+			<Overload retVal="" descr="The inverse of logarithmic cumulative distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PLOGRPDF" func="yes">
+			<Overload retVal="" descr="The logarithmic probability distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plogrpdf" func="yes">
+			<Overload retVal="" descr="The logarithmic probability distribution">
+				<Param name="p_factor" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNEGBCDF" func="yes">
+			<Overload retVal="" descr="The negative binomial cumulative distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnegbcdf" func="yes">
+			<Overload retVal="" descr="The negative binomial cumulative distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNEGBINV" func="yes">
+			<Overload retVal="" descr="The inverse of negative binomial cumulative distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnegbinv" func="yes">
+			<Overload retVal="" descr="The inverse of negative binomial cumulative distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNEGBPDF" func="yes">
+			<Overload retVal="" descr="The negative binomial probability distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnegbpdf" func="yes">
+			<Overload retVal="" descr="The negative binomial probability distribution">
+				<Param name="r_num_failures" />
+				<Param name="p_prob_success" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNORMCDF" func="yes">
+			<Overload retVal="" descr="The normal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnormcdf" func="yes">
+			<Overload retVal="" descr="The normal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNORMINV" func="yes">
+			<Overload retVal="" descr="The inverse of normal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnorminv" func="yes">
+			<Overload retVal="" descr="The inverse of normal cumulative distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PNORMPDF" func="yes">
+			<Overload retVal="" descr="The normal probability distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pnormpdf" func="yes">
+			<Overload retVal="" descr="The normal probability distribution">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="POINTER" func="yes">
+			<Overload retVal="" descr="Transfer data directly through shared memory locations">
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pointer" func="yes">
+			<Overload retVal="" descr="Transfer data directly through shared memory locations">
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="POW" func="yes">
+			<Overload retVal="" descr="Return the value of x raised to the y power">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pow" func="yes">
+			<Overload retVal="" descr="Return the value of x raised to the y power">
+				<Param name="x" />
+				<Param name="y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="POSD" func="yes">
+			<Overload retVal="" descr="Specify a matrix of decision variables to be positive semi-definite">
+				<Param name="matrix" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="posd" func="yes">
+			<Overload retVal="" descr="Specify a matrix of decision variables to be positive semi-definite">
+				<Param name="matrix" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPL" func="yes">
+			<Overload retVal="" descr="The linear loss function for the poisson distribution">
+				<Param name="a_mean_value" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ppl" func="yes">
+			<Overload retVal="" descr="The linear loss function for the poisson distribution">
+				<Param name="a_mean_value" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPOISCDF" func="yes">
+			<Overload retVal="" descr="The poisson cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ppoiscdf" func="yes">
+			<Overload retVal="" descr="The poisson cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPOISINV" func="yes">
+			<Overload retVal="" descr="The inverse of poisson cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ppoisinv" func="yes">
+			<Overload retVal="" descr="The inverse of poisson cumulative distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPOISPDF" func="yes">
+			<Overload retVal="" descr="The poisson probability distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ppoispdf" func="yes">
+			<Overload retVal="" descr="The poisson probability distribution">
+				<Param name="lambda" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPRTOCDF" func="yes">
+			<Overload retVal="" descr="The pareto cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pprtocdf" func="yes">
+			<Overload retVal="" descr="The pareto cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPRTOINV" func="yes">
+			<Overload retVal="" descr="The inverse of pareto cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pprtoinv" func="yes">
+			<Overload retVal="" descr="The inverse of pareto cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPRTOPDF" func="yes">
+			<Overload retVal="" descr="The pareto probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pprtopdf" func="yes">
+			<Overload retVal="" descr="The pareto probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PPS" func="yes">
+			<Overload retVal="" descr="The poisson cumulative distribution, being replaced by @PPOISCDF">
+				<Param name="a_mean_value" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pps" func="yes">
+			<Overload retVal="" descr="The poisson cumulative distribution, being replaced by @ppoiscdf">
+				<Param name="a_mean_value" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PRBLVL" />
+		<KeyWord name="prblvl" />
+		<KeyWord name="PRECIS" />
+		<KeyWord name="precis" />
+		<KeyWord name="PRIMPR" />
+		<KeyWord name="primpr" />
+		<KeyWord name="PRIORITY" func="yes">
+			<Overload retVal="" descr="Set the branching priority for integer variable to the value of priority">
+				<Param name="variable" />
+				<Param name="priority" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="priority" func="yes">
+			<Overload retVal="" descr="Set the branching priority for integer variable to the value of priority">
+				<Param name="variable" />
+				<Param name="priority" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PRNCLR" />
+		<KeyWord name="prnclr" />
+		<KeyWord name="PROCEDURE" />
+		<KeyWord name="procedure" />
+		<KeyWord name="PROD" func="yes">
+			<Overload retVal="" descr="Return the product of an expression over the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prod" func="yes">
+			<Overload retVal="" descr="Return the product of an expression over the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSL" func="yes">
+			<Overload retVal="" descr="The unit normal linear loss function">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="psl" func="yes">
+			<Overload retVal="" descr="The unit normal linear loss function">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSMSTCDF" func="yes">
+			<Overload retVal="" descr="The symmetric stable cumulative distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="psmstcdf" func="yes">
+			<Overload retVal="" descr="The symmetric stable cumulative distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSMSTINV" func="yes">
+			<Overload retVal="" descr="The inverse of symmetric stable cumulative distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="psmstinv" func="yes">
+			<Overload retVal="" descr="The inverse of symmetric stable cumulative distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSMSTPDF" func="yes">
+			<Overload retVal="" descr="The symmetric stable probability distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="psmstpdf" func="yes">
+			<Overload retVal="" descr="The symmetric stable probability distribution">
+				<Param name="alpha" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSN" func="yes">
+			<Overload retVal="" descr="The standard normal cumulative distribution, being replaced by @PNORMCDF">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="psn" func="yes">
+			<Overload retVal="" descr="The standard normal cumulative distribution, being replaced by @pnormcdf">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSTUTCDF" func="yes">
+			<Overload retVal="" descr="The student's t cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pstutcdf" func="yes">
+			<Overload retVal="" descr="The student's t cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSTUTINV" func="yes">
+			<Overload retVal="" descr="The inverse of student's t cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pstutinv" func="yes">
+			<Overload retVal="" descr="The inverse of student's t cumulative distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PSTUTPDF" func="yes">
+			<Overload retVal="" descr="The student's t probability distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pstutpdf" func="yes">
+			<Overload retVal="" descr="The student's t probability distribution">
+				<Param name="deg_freedom" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PTD" func="yes">
+			<Overload retVal="" descr="The student's t cumulative distribution, being replaced by @PSTUTCDF">
+				<Param name="n" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ptd" func="yes">
+			<Overload retVal="" descr="The student's t cumulative distribution, being replaced by @pstutcdf">
+				<Param name="n" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PTRIACDF" func="yes">
+			<Overload retVal="" descr="The triangular cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ptriacdf" func="yes">
+			<Overload retVal="" descr="The triangular cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PTRIAINV" func="yes">
+			<Overload retVal="" descr="The inverse of triangular cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ptriainv" func="yes">
+			<Overload retVal="" descr="The inverse of triangular cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PTRIAPDF" func="yes">
+			<Overload retVal="" descr="The triangular probability distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ptriapdf" func="yes">
+			<Overload retVal="" descr="The triangular probability distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PUNIFCDF" func="yes">
+			<Overload retVal="" descr="The uniform cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="punifcdf" func="yes">
+			<Overload retVal="" descr="The uniform cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PUNIFINV" func="yes">
+			<Overload retVal="" descr="The inverse of uniform cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="punifinv" func="yes">
+			<Overload retVal="" descr="The inverse of uniform cumulative distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PUNIFPDF" func="yes">
+			<Overload retVal="" descr="The uniform probability distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="punifpdf" func="yes">
+			<Overload retVal="" descr="The uniform probability distribution">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PWEIBCDF" func="yes">
+			<Overload retVal="" descr="The weibull cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pweibcdf" func="yes">
+			<Overload retVal="" descr="The weibull cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PWEIBINV" func="yes">
+			<Overload retVal="" descr="The inverse of weibull cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pweibinv" func="yes">
+			<Overload retVal="" descr="The inverse of weibull cumulative distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PWEIBPDF" func="yes">
+			<Overload retVal="" descr="The weibull probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pweibpdf" func="yes">
+			<Overload retVal="" descr="The weibull probability distribution">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="QRAND" func="yes">
+			<Overload retVal="" descr="Produce a sequence of 'quasi-random' uniform numbers in the interval (0,1)">
+				<Param name="seed" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="qrand" func="yes">
+			<Overload retVal="" descr="Produce a sequence of 'quasi-random' uniform numbers in the interval (0,1)">
+				<Param name="seed" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="QRFACTOR" func="yes">
+			<Overload retVal="q,r[,err] =" descr="Return QR factorization of matrix a">
+				<Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="qrfactor" func="yes">
+			<Overload retVal="q,r[,err] =" descr="Return QR factorization of matrix a">
+				<Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="QUIT" />
+		<KeyWord name="quit" />
+		<KeyWord name="RAND" func="yes">
+			<Overload retVal="" descr="Return a pseudo-random number between 0 and 1 depending deterministically on seed">
+				<Param name="seed" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rand" func="yes">
+			<Overload retVal="" descr="Return a pseudo-random number between 0 and 1 depending deterministically on seed">
+				<Param name="seed" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANGE" />
+		<KeyWord name="range" />
+		<KeyWord name="RANGED" func="yes">
+			<Overload retVal="" descr="Output the allowable decrease on a specified variable's objective coefficient or on a specified row's right-hand side">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ranged" func="yes">
+			<Overload retVal="" descr="Output the allowable decrease on a specified variable's objective coefficient or on a specified row's right-hand side">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANGEU" func="yes">
+			<Overload retVal="" descr="Output the allowable increase on a specified variable's objective coefficient or on a specified row's right-hand side">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rangeu" func="yes">
+			<Overload retVal="" descr="Output the allowable increase on a specified variable's objective coefficient or on a specified row's right-hand side">
+				<Param name="variable_or_row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANK" func="yes">
+			<Overload retVal="" descr="Rank the values of an attribute in ascending order">
+				<Param name="attribute_to_be_ranked" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rank" func="yes">
+			<Overload retVal="" descr="Rank the values of an attribute in ascending order">
+				<Param name="attribute_to_be_ranked" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RCMPSN" />
+		<KeyWord name="rcmpsn" />
+		<KeyWord name="RCTLIM" />
+		<KeyWord name="rctlim" />
+		<KeyWord name="READLN" func="yes">
+			<Overload retVal="" descr="Read a specified number of lines from text file">
+				<Param name="['file_name']" />
+                <Param name="[,lines]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readln" func="yes">
+			<Overload retVal="" descr="Read a specified number of lines from text file">
+				<Param name="['file_name']" />
+                <Param name="[,lines]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="READRM" func="yes">
+			<Overload retVal="" descr="Read from text file until either encounter record_marker or EOF">
+				<Param name="['file_name']" />
+                <Param name="[,'record_marker']"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readrm" func="yes">
+			<Overload retVal="" descr="Read from text file until either encounter record_marker or EOF">
+				<Param name="['file_name']" />
+                <Param name="[,'record_marker']"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="REDUCE" />
+		<KeyWord name="reduce" />
+		<KeyWord name="REFRAQ" />
+		<KeyWord name="refraq" />
+		<KeyWord name="REGRESS" func="yes">
+		    <Overload retVal="b, b0, res, rsq, f, p, var =" descr="Multiple linear regression">
+			    <Param name="y" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="regress" func="yes">
+		    <Overload retVal="b, b0, res, rsq, f, p, var =" descr="Multiple linear regression">
+			    <Param name="y" />
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RELEASE" func="yes">
+			<Overload retVal="" descr="Release a fixed variable to be optimizable again">
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="release" func="yes">
+			<Overload retVal="" descr="Release a fixed variable to be optimizable again">
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RELINT" />
+		<KeyWord name="relint" />
+		<KeyWord name="REOPTB" />
+		<KeyWord name="reoptb" />
+		<KeyWord name="REOPTX" />
+		<KeyWord name="reoptx" />
+		<KeyWord name="REPROD" />
+		<KeyWord name="reprod" />
+		<KeyWord name="RLPF" />
+		<KeyWord name="rlpf" />
+		<KeyWord name="RMPI" />
+		<KeyWord name="rmpi" />
+		<KeyWord name="RMPS" />
+		<KeyWord name="rmps" />
+		<KeyWord name="ROUND" func="yes">
+			<Overload retVal="" descr="Round x to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="round" func="yes">
+			<Overload retVal="" descr="Round x to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROUNDDOWN" func="yes">
+			<Overload retVal="" descr="Round x down(towards 0) to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rounddown" func="yes">
+			<Overload retVal="" descr="Round x down(towards 0) to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROUNDUP" func="yes">
+			<Overload retVal="" descr="Round x up(away from 0) to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="roundup" func="yes">
+			<Overload retVal="" descr="Round x up(away from 0) to the closest number to x having n digits">
+				<Param name="x" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RVRT" />
+		<KeyWord name="rvrt" />
+		<KeyWord name="SAVE" />
+		<KeyWord name="save" />
+		<KeyWord name="SCALEM" />
+		<KeyWord name="scalem" />
+		<KeyWord name="SCENE" />
+		<KeyWord name="scene" />
+		<KeyWord name="SCLRDR" />
+		<KeyWord name="sclrdr" />
+		<KeyWord name="SCLRLM" />
+		<KeyWord name="sclrlm" />
+		<KeyWord name="SECORD" />
+		<KeyWord name="secord" />
+		<KeyWord name="SELCON" />
+		<KeyWord name="selcon" />
+		<KeyWord name="SEMIC" func="yes">
+			<Overload retVal="" descr="Restrict variable to being either 0 or in the range of [lower_bound, upperbound]">
+				<Param name="lower_bound" />
+				<Param name="variable" />
+				<Param name="upper_bound" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="semic" func="yes">
+			<Overload retVal="" descr="Restrict variable to being either 0 or in the range of [lower_bound, upperbound]">
+				<Param name="lower_bound" />
+				<Param name="variable" />
+				<Param name="upper_bound" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SET" func="yes">
+			<Overload retVal="" descr="Change a parameter's setting">
+				<Param name="'param_name'" />
+				<Param name="parameter_value" />
+			</Overload>
+			<Overload retVal="" descr="Return to default value">
+				<Param name="'param_name'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="set" func="yes">
+			<Overload retVal="" descr="Change a parameter's setting">
+				<Param name="'param_name'" />
+				<Param name="parameter_value" />
+			</Overload>
+			<Overload retVal="" descr="Return to default value">
+				<Param name="'param_name'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SETS" />
+		<KeyWord name="sets" />
+		<KeyWord name="SHOWNL" />
+		<KeyWord name="shownl" />
+		<KeyWord name="SIGN" func="yes">
+			<Overload retVal="" descr="Return -1 if x < 0, 0 if x = 0 and +1 if x > 0">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign" func="yes">
+			<Overload retVal="" descr="Return -1 if x < 0, 0 if x = 0 and +1 if x > 0">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SIN" func="yes">
+			<Overload retVal="" descr="Return the sine of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sin" func="yes">
+			<Overload retVal="" descr="Return the sine of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SINH" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic sine of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sinh" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic sine of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SIZE" func="yes">
+			<Overload retVal="" descr="Return the size of a set">
+				<Param name="set_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="size" func="yes">
+			<Overload retVal="" descr="Return the size of a set">
+				<Param name="set_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SMAX" func="yes">
+			<Overload retVal="" descr="Return the maximum value of x1, x2,..., and xn">
+				<Param name="x1" />
+				<Param name="x2" />
+				<Param name="..." />
+				<Param name="xn" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="smax" func="yes">
+			<Overload retVal="" descr="Return the maximum value of x1, x2,..., and xn">
+				<Param name="x1" />
+				<Param name="x2" />
+				<Param name="..." />
+				<Param name="xn" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SMIN" func="yes">
+			<Overload retVal="" descr="Return the minimum value of x1, x2,..., and xn">
+				<Param name="x1" />
+				<Param name="x2" />
+				<Param name="..." />
+				<Param name="xn" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="smin" func="yes">
+			<Overload retVal="" descr="Return the minimum value of x1, x2,..., and xn">
+				<Param name="x1" />
+				<Param name="x2" />
+				<Param name="..." />
+				<Param name="xn" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SMPI" func="yes">
+			<Overload retVal="" descr="Generate the model and write it to a specified file in MPI format">
+				<Param name="'filename'[,submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="smpi" func="yes">
+			<Overload retVal="" descr="Generate the model and write it to a specified file in MPI format">
+				<Param name="'filename'[,submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SMPS" func="yes">
+			<Overload retVal="" descr="Generate the model and write it to a specified file in MPS format">
+				<Param name="'filename'[,submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="smps" func="yes">
+			<Overload retVal="" descr="Generate the model and write it to a specified file in MPS format">
+				<Param name="'filename'[,submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOLVE" func="yes">
+			<Overload retVal="" descr="Solve one or multiple submodels">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="solve" func="yes">
+			<Overload retVal="" descr="Solve one or multiple submodels">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOLVEL" />
+		<KeyWord name="solvel" />
+		<KeyWord name="SOLU" func="yes">
+			<Overload retVal="" descr="Display nonzero variables and binding rows only if 0, all information if 1">
+				<Param name="[0|1[,model_object[,'report_header']]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="solu" func="yes">
+			<Overload retVal="" descr="Display nonzero variables and binding rows only if 0, all information if 1">
+				<Param name="[0|1[,model_object[,'report_header']]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOLUTION" />
+		<KeyWord name="solution" />
+		<KeyWord name="SORT" func="yes">
+		    <Overload retVal="" descr="Return the ordering of the set members or attributes">
+			    <Param name="set|attribute(s)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sort" func="yes">
+		    <Overload retVal="" descr="Return the ordering of the set members or attributes">
+			    <Param name="set|attribute(s)"/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOS1" func="yes">
+			<Overload retVal="" descr="At most only one variable in a SOS1 set will be greater than 0">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sos1" func="yes">
+			<Overload retVal="" descr="At most only one variable in a SOS1 set will be greater than 0">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOS2" func="yes">
+			<Overload retVal="" descr="At most only two variables in a SOS2 set can be different from 0, and nonzeros should be adjacent to each other">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sos2" func="yes">
+			<Overload retVal="" descr="At most only two variables in a SOS2 set can be different from 0, and nonzeros should be adjacent to each other">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SOS3" func="yes">
+			<Overload retVal="" descr="Exactly one variable in a SOS3 set will be equal to 1, others 0">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sos3" func="yes">
+			<Overload retVal="" descr="Exactly one variable in a SOS3 set will be equal to 1, others 0">
+				<Param name="'sos_set_name'" />
+				<Param name="variable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPBIGM" />
+		<KeyWord name="spbigm" />
+		<KeyWord name="SPCHANCE" func="yes">
+			<Overload retVal="" descr="Specify chance constraint(s)">
+				<Param name="'set_name'" />
+				<Param name="{'>='|'<=',probability}|{constraint_ref}" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spchance" func="yes">
+			<Overload retVal="" descr="Specify chance constraint(s)">
+				<Param name="'set_name'" />
+				<Param name="{'>='|'<=',probability}|{constraint_ref}" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPCORRKENDALL" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'kendall'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spcorrkendall" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'kendall'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPCORRPEARSON" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'pearson'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spcorrpearson" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'pearson'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPCORRSPEARMAN" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'spearman'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spcorrspearman" func="yes">
+			<Overload retVal="" descr="Induce correlations between two random variables, method is 'spearman'">
+				<Param name="random_var_1" />
+				<Param name="random_var_2" />
+				<Param name="rho" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTBETA" func="yes">
+			<Overload retVal="" descr="Apply beta distribution to random variable(s)">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistbeta" func="yes">
+			<Overload retVal="" descr="Apply beta distribution to random variable(s)">
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTBINO" func="yes">
+			<Overload retVal="" descr="Apply binomial distribution to random variable(s)">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistbino" func="yes">
+			<Overload retVal="" descr="Apply binomial distribution to random variable(s)">
+				<Param name="n_trials" />
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTBTBN" func="yes">
+			<Overload retVal="" descr="Apply beta binomial distribution to random variable(s)">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistbtbn" func="yes">
+			<Overload retVal="" descr="Apply beta binomial distribution to random variable(s)">
+				<Param name="n_trials" />
+				<Param name="alpha" />
+				<Param name="beta" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTCACY" func="yes">
+			<Overload retVal="" descr="Apply cauchy distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistcacy" func="yes">
+			<Overload retVal="" descr="Apply cauchy distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTCHIS" func="yes">
+			<Overload retVal="" descr="Apply chi-square distribution to random variable(s)">
+				<Param name="deg_freedom" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistchis" func="yes">
+			<Overload retVal="" descr="Apply chi-square distribution to random variable(s)">
+				<Param name="deg_freedom" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTEXPO" func="yes">
+			<Overload retVal="" descr="Apply exponential distribution to random variable(s)">
+				<Param name="lambda" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistexpo" func="yes">
+			<Overload retVal="" descr="Apply exponential distribution to random variable(s)">
+				<Param name="lambda" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTFDST" func="yes">
+			<Overload retVal="" descr="Apply F distribution to random variable(s)">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistfdst" func="yes">
+			<Overload retVal="" descr="Apply F distribution to random variable(s)">
+				<Param name="df1" />
+				<Param name="df2" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTGAMM" func="yes">
+			<Overload retVal="" descr="Apply gamma distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistgamm" func="yes">
+			<Overload retVal="" descr="Apply gamma distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTGEOM" func="yes">
+			<Overload retVal="" descr="Apply geometric distribution to random variable(s)">
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistgeom" func="yes">
+			<Overload retVal="" descr="Apply geometric distribution to random variable(s)">
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTGMBL" func="yes">
+			<Overload retVal="" descr="Apply gumbel distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistgmbl" func="yes">
+			<Overload retVal="" descr="Apply gumbel distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTHYPG" func="yes">
+			<Overload retVal="" descr="Apply hypergeometric distribution to random variable(s)">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdisthypg" func="yes">
+			<Overload retVal="" descr="Apply hypergeometric distribution to random variable(s)">
+				<Param name="n_population" />
+				<Param name="d_num_defective" />
+				<Param name="k_sample_size" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTLAPL" func="yes">
+			<Overload retVal="" descr="Apply laplace distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistlapl" func="yes">
+			<Overload retVal="" descr="Apply laplace distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTLGST" func="yes">
+			<Overload retVal="" descr="Apply logistic distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistlgst" func="yes">
+			<Overload retVal="" descr="Apply logistic distribution to random variable(s)">
+				<Param name="location" />
+				<Param name="scale" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTLOGN" func="yes">
+			<Overload retVal="" descr="Apply lognormal distribution to random variable(s)">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistlogn" func="yes">
+			<Overload retVal="" descr="Apply lognormal distribution to random variable(s)">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTLOGR" func="yes">
+			<Overload retVal="" descr="Apply logarithmic distribution to random variable(s)">
+				<Param name="p_factor" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistlogr" func="yes">
+			<Overload retVal="" descr="Apply logarithmic distribution to random variable(s)">
+				<Param name="p_factor" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTNEGB" func="yes">
+			<Overload retVal="" descr="Apply negative binomial distribution to random variable(s)">
+				<Param name="r_factor" />
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistnegb" func="yes">
+			<Overload retVal="" descr="Apply negative binomial distribution to random variable(s)">
+				<Param name="r_factor" />
+				<Param name="prob_success" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTNORM" func="yes">
+			<Overload retVal="" descr="Apply normal distribution to random variable(s)">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistnorm" func="yes">
+			<Overload retVal="" descr="Apply normal distribution to random variable(s)">
+				<Param name="mu" />
+				<Param name="sigma" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTPOIS" func="yes">
+			<Overload retVal="" descr="Apply poisson distribution to random variable(s)">
+				<Param name="lambda" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistpois" func="yes">
+			<Overload retVal="" descr="Apply poisson distribution to random variable(s)">
+				<Param name="lambda" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTPRTO" func="yes">
+			<Overload retVal="" descr="Apply pareto distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistprto" func="yes">
+			<Overload retVal="" descr="Apply pareto distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTSMST" func="yes">
+			<Overload retVal="" descr="Apply symmetric stable distribution to random variable(s)">
+				<Param name="alpha" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistsmst" func="yes">
+			<Overload retVal="" descr="Apply symmetric stable distribution to random variable(s)">
+				<Param name="alpha" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTSTUT" func="yes">
+			<Overload retVal="" descr="Apply student's t distribution to random variable(s)">
+				<Param name="deg_freedom" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdiststut" func="yes">
+			<Overload retVal="" descr="Apply student's t distribution to random variable(s)">
+				<Param name="deg_freedom" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTTABLE" func="yes">
+			<Overload retVal="" descr="Declare outcome tables and assign random variables to those tables">
+				<Param name="outcome_table" />
+				<Param name="random_variable_attr[,probability_attr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdisttable" func="yes">
+			<Overload retVal="" descr="Declare outcome tables and assign random variables to those tables">
+				<Param name="outcome_table" />
+				<Param name="random_variable_attr[,probability_attr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTTRIA" func="yes">
+			<Overload retVal="" descr="Apply triangular distribution to random variable(s)">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdisttria" func="yes">
+			<Overload retVal="" descr="Apply triangular distribution to random variable(s)">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="mode" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTUNIF" func="yes">
+			<Overload retVal="" descr="Apply uniform distribution to random variable(s)">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistunif" func="yes">
+			<Overload retVal="" descr="Apply uniform distribution to random variable(s)">
+				<Param name="lower" />
+				<Param name="upper" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPDISTWEIB" func="yes">
+			<Overload retVal="" descr="Apply weibull distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spdistweib" func="yes">
+			<Overload retVal="" descr="Apply weibull distribution to random variable(s)">
+				<Param name="scale" />
+				<Param name="shape" />
+				<Param name="rndvar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPLASH" />
+		<KeyWord name="splash" />
+		<KeyWord name="SPLOADSCENE" func="yes">
+			<Overload retVal="" descr="Load the solution for scenario index">
+				<Param name="scenario_index" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sploadscene" func="yes">
+			<Overload retVal="" descr="Load the solution for scenario index">
+				<Param name="scenario_index" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPMAX" func="yes">
+			<Overload retVal="" descr="Determine the maximum value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spmax" func="yes">
+			<Overload retVal="" descr="Determine the maximum value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPMAXS" />
+		<KeyWord name="spmaxs" />
+		<KeyWord name="SPMEAN" func="yes">
+			<Overload retVal="" descr="Determine the mean value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spmean" func="yes">
+			<Overload retVal="" descr="Determine the mean value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPMIN" func="yes">
+			<Overload retVal="" descr="Determine the minimum value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spmin" func="yes">
+			<Overload retVal="" descr="Determine the minimum value across all scenarios for any specified variable or row name">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPMTHD" />
+		<KeyWord name="spmthd" />
+		<KeyWord name="SPNUMSCENE" func="yes">
+			<Overload retVal="" descr="Retrieve the total number of scenarios in the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spnumscene" func="yes">
+			<Overload retVal="" descr="Retrieve the total number of scenarios in the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPPRBSCENE" func="yes">
+			<Overload retVal="" descr="Retrieve the probability of a specified scenario index">
+				<Param name="scenario_index" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spprbscene" func="yes">
+			<Overload retVal="" descr="Retrieve the probability of a specified scenario index">
+				<Param name="scenario_index" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPSAMPSIZE" func="yes">
+			<Overload retVal="" descr="Set the sample size for probability distributions by stage">
+				<Param name="stage" />
+				<Param name="sample_size" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spsampsize" func="yes">
+			<Overload retVal="" descr="Set the sample size for probability distributions by stage">
+				<Param name="stage" />
+				<Param name="sample_size" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPSCON" />
+		<KeyWord name="spscon" />
+		<KeyWord name="SPSEED" />
+		<KeyWord name="spseed" />
+		<KeyWord name="SPSMSZ" />
+		<KeyWord name="spsmsz" />
+		<KeyWord name="SPSTDDEV" func="yes">
+			<Overload retVal="" descr="Determine the standard deviation of any variable or row across all scenarios">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spstddev" func="yes">
+			<Overload retVal="" descr="Determine the standard deviation of any variable or row across all scenarios">
+				<Param name="variable|row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPSTGRNDV" func="yes">
+			<Overload retVal="" descr="Identify the random variables in a CCP model">
+				<Param name="stage" />
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spstgrndv" func="yes">
+			<Overload retVal="" descr="Identify the random variables in a CCP model">
+				<Param name="stage" />
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPSTGROW" func="yes">
+			<Overload retVal="" descr="Establish row stages">
+				<Param name="stage" />
+				<Param name="row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spstgrow" func="yes">
+			<Overload retVal="" descr="Establish row stages">
+				<Param name="stage" />
+				<Param name="row_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPSTGVAR" func="yes">
+			<Overload retVal="" descr="Idetify initial decision and recourse variables">
+				<Param name="stage" />
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spstgvar" func="yes">
+			<Overload retVal="" descr="Idetify initial decision and recourse variables">
+				<Param name="stage" />
+				<Param name="variable_name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPTABLEINST" func="yes">
+			<Overload retVal="" descr="Declare distribution instances">
+				<Param name="'parent_table_name'" />
+				<Param name="'table_instance_name'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sptableinst" func="yes">
+			<Overload retVal="" descr="Declare distribution instances">
+				<Param name="'parent_table_name'" />
+				<Param name="'table_instance_name'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPTABLEOUTC" func="yes">
+			<Overload retVal="" descr="Load the table with its set of outcome values and their probabilities">
+				<Param name="'table_name'" />
+				<Param name="outc_prob" />
+				<Param name="outc_val1[,...,outc_valn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sptableoutc" func="yes">
+			<Overload retVal="" descr="Load the table with its set of outcome values and their probabilities">
+				<Param name="'table_name'" />
+				<Param name="outc_prob" />
+				<Param name="outc_val1[,...,outc_valn]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPTABLERNDV" func="yes">
+			<Overload retVal="" descr="Associate specific random variables with the outcome table instance">
+				<Param name="'dist_instance_name'" />
+				<Param name="random_var_1[,...,random_var_n]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sptablerndv" func="yes">
+			<Overload retVal="" descr="Associate specific random variables with the outcome table instance">
+				<Param name="'dist_instance_name'" />
+				<Param name="random_var_1[,...,random_var_n]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPTABLESHAPE" func="yes">
+			<Overload retVal="" descr="Initialize an outcome table">
+				<Param name="'table_name'" />
+				<Param name="number_of_outcomes" />
+				<Param name="number_of_random_vars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sptableshape" func="yes">
+			<Overload retVal="" descr="Initialize an outcome table">
+				<Param name="'table_name'" />
+				<Param name="number_of_outcomes" />
+				<Param name="number_of_random_vars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SPXVAL" />
+		<KeyWord name="spxval" />
+		<KeyWord name="SQR" func="yes">
+			<Overload retVal="" descr="Return the value of x squared">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sqr" func="yes">
+			<Overload retVal="" descr="Return the value of x squared">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SQRT" func="yes">
+			<Overload retVal="" descr="Return the square root of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sqrt" func="yes">
+			<Overload retVal="" descr="Return the square root of x">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STABAR" />
+		<KeyWord name="stabar" />
+        <KeyWord name="STARTP" />
+        <KeyWord name="startp" />
+		<KeyWord name="STATS" func="yes">
+			<Overload retVal="" descr="Display a report containing summary statistics about the size of the generated model">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stats" func="yes">
+			<Overload retVal="" descr="Display a report containing summary statistics about the size of the generated model">
+				<Param name="[submodel_name[,...,submodel_name_n]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STATUS" func="yes">
+			<Overload retVal="" descr="Return the final status of the solution process">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="status" func="yes">
+			<Overload retVal="" descr="Return the final status of the solution process">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STAWIN" />
+		<KeyWord name="stawin" />
+		<KeyWord name="STM2DAY" func="yes">
+			<Overload retVal="" descr="Return original day from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2day" func="yes">
+			<Overload retVal="" descr="Return original day from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2DWK" func="yes">
+			<Overload retVal="" descr="Return the index of its day of the week">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2dwk" func="yes">
+			<Overload retVal="" descr="Return the index of its day of the week">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2HR" func="yes">
+			<Overload retVal="" descr="Return original hour from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2hr" func="yes">
+			<Overload retVal="" descr="Return original hour from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2MIN" func="yes">
+			<Overload retVal="" descr="Return original minute from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2min" func="yes">
+			<Overload retVal="" descr="Return original minute from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2MON" func="yes">
+			<Overload retVal="" descr="Return original month from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2mon" func="yes">
+			<Overload retVal="" descr="Return original month from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2SEC" func="yes">
+			<Overload retVal="" descr="Return original second from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2sec" func="yes">
+			<Overload retVal="" descr="Return original second from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2YMD" func="yes">
+		    <Overload retVal="year, mon, day, dayofweek, hour, min, sec =" descr="Retrun current time based on standard time value">
+			    <Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2ymd" func="yes">
+		    <Overload retVal="year, mon, day, dayofweek, hour, min, sec =" descr="Retrun current time based on standard time value">
+			    <Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2YMDHMS" func="yes">
+		    <Overload retVal="year, mon, day, dayofweek, hour, min, sec =" descr="Retrun current time based on standard time value">
+			    <Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2ymdhms" func="yes">
+		    <Overload retVal="year, mon, day, dayofweek, hour, min, sec =" descr="Retrun current time based on standard time value">
+			    <Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STM2YR" func="yes">
+			<Overload retVal="" descr="Return original year from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stm2yr" func="yes">
+			<Overload retVal="" descr="Return original year from scalar time">
+				<Param name="stm" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STMNOW" func="yes">
+			<Overload retVal="" descr="Return the current date and time as a scalar time value">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stmnow" func="yes">
+			<Overload retVal="" descr="Return the current date and time as a scalar time value">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STOP" func="yes">
+			<Overload retVal="" descr="Terminate execution of the current model">
+				<Param name="'message'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stop" func="yes">
+			<Overload retVal="" descr="Terminate execution of the current model">
+				<Param name="'message'" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STRLEN" func="yes">
+			<Overload retVal="" descr="Get the length of a specified string">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strlen" func="yes">
+			<Overload retVal="" descr="Get the length of a specified string">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STRONG" />
+		<KeyWord name="strong" />
+		<KeyWord name="SUBMODEL" />
+		<KeyWord name="submodel" />
+		<KeyWord name="SUBOUT" />
+		<KeyWord name="subout" />
+		<KeyWord name="SUM" func="yes">
+			<Overload retVal="" descr="Return the sum of an expression over the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sum" func="yes">
+			<Overload retVal="" descr="Return the sum of an expression over the setname set">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TABLE" func="yes">
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="num_horz_indices" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="prim_set1,...,prim_setn" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="prim_set1,...,prim_setn" />
+				<Param name="num_horz_indices" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="table" func="yes">
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="num_horz_indices" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="prim_set1,...,prim_setn" />
+			</Overload>
+			<Overload retVal="" descr="Display either an attribute's values or a set's members in tabular format">
+				<Param name="attr/set" />
+				<Param name="prim_set1,...,prim_setn" />
+				<Param name="num_horz_indices" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TAKE" />
+		<KeyWord name="take" />
+		<KeyWord name="TATSLV" />
+		<KeyWord name="tatslv" />
+		<KeyWord name="TAN" func="yes">
+			<Overload retVal="" descr="Return the tangent of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tan" func="yes">
+			<Overload retVal="" descr="Return the tangent of x, where x is the angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TANH" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tanh" func="yes">
+			<Overload retVal="" descr="Return the hyperbolic tangent of x, where x is an angle in radians">
+				<Param name="x" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TERSE" />
+		<KeyWord name="terse" />
+		<KeyWord name="TERSEO" />
+		<KeyWord name="terseo" />
+		<KeyWord name="TEXT" func="yes">
+			<Overload retVal="" descr="Export solutions to text files">
+				<Param name="[['filename'],'a']" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text" func="yes">
+			<Overload retVal="" descr="Export solutions to text files">
+				<Param name="[['filename'],'a']" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TIME" func="yes">
+			<Overload retVal="" descr="Return the total runtime required so far to generate and solve the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="time" func="yes">
+			<Overload retVal="" descr="Return the total runtime required so far to generate and solve the model">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TIME2RL" />
+		<KeyWord name="time2rl" />
+		<KeyWord name="TIMLIM" />
+		<KeyWord name="timlim" />
+		<KeyWord name="TITLE" />
+		<KeyWord name="title" />
+		<KeyWord name="TOOLBR" />
+		<KeyWord name="toolbr" />
+		<KeyWord name="TRANSPOSE" func="yes">
+		    <Overload retVal="t =" descr="Return the transpose of the matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transpose" func="yes">
+		    <Overload retVal="t =" descr="Return the transpose of the matrix a">
+			    <Param name="a" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UNARYM" />
+		<KeyWord name="unarym" />
+		<KeyWord name="USEPNM" />
+		<KeyWord name="usepnm" />
+		<KeyWord name="USEQPR" />
+		<KeyWord name="useqpr" />
+		<KeyWord name="USER" func="yes">
+			<Overload retVal="" descr="Use customized functions of your own design in LINGO">
+				<Param name="user_determined_arguments" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="user" func="yes">
+			<Overload retVal="" descr="Use customized functions of your own design in LINGO">
+				<Param name="user_determined_arguments" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VERBOSE" />
+		<KeyWord name="verbose" />
+		<KeyWord name="WARN" func="yes">
+			<Overload retVal="" descr="Display the message 'text' if the logical_condition is met">
+				<Param name="'text'" />
+				<Param name="logical_condition" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="warn" func="yes">
+			<Overload retVal="" descr="Display the message 'text' if the logical_condition is met">
+				<Param name="'text'" />
+				<Param name="logical_condition" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WHILE" func="yes">
+			<Overload retVal="" descr="Loop over a group of statements until some termination criterion is met">
+				<Param name="conditional_exp:statement_1[;...;statement_n;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="while" func="yes">
+			<Overload retVal="" descr="Loop over a group of statements until some termination criterion is met">
+				<Param name="conditional_exp:statement_1[;...;statement_n;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WIDTH" />
+		<KeyWord name="width" />
+		<KeyWord name="WNLINE" />
+		<KeyWord name="wnline" />
+		<KeyWord name="WNTRIM" />
+		<KeyWord name="wntrim" />
+		<KeyWord name="WRAP" func="yes">
+			<Overload retVal="" descr="Return j such that j = index - k * limit, where k is an integer and j in [1,limit]">
+				<Param name="index" />
+				<Param name="limit" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wrap" func="yes">
+			<Overload retVal="" descr="Return j such that j = index - k * limit, where k is an integer and j in [1,limit]">
+				<Param name="index" />
+				<Param name="limit" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WRITE" func="yes">
+			<Overload retVal="" descr="Output one or more objects">
+				<Param name="'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="write" func="yes">
+			<Overload retVal="" descr="Output one or more objects">
+				<Param name="'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WRITEFOR" func="yes">
+			<Overload retVal="" descr="Output multiple objects in a set that met some conditional qualifier">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="writefor" func="yes">
+			<Overload retVal="" descr="Output multiple objects in a set that met some conditional qualifier">
+				<Param name="setname[(set_index_list)[|cond_qualifier]]:'text1'|value1[,...,'textn'|valuen]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="XDETEQ" />
+		<KeyWord name="xdeteq" />
+		<KeyWord name="YMD2STM" func="yes">
+			<Overload retVal="" >
+				<Param name="year" />
+				<Param name="month" />
+				<Param name="day" />
+				<Param name="hour" />
+				<Param name="minute" />
+				<Param name="second" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ymd2stm" func="yes">
+			<Overload retVal="" >
+				<Param name="year" />
+				<Param name="month" />
+				<Param name="day" />
+				<Param name="hour" />
+				<Param name="minute" />
+				<Param name="second" />
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>

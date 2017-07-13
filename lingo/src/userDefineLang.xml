@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="LINGO" ext="ltf lng" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03! 04;</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2">- + 0 1 2 3 4 5 6 7 8 9</Keywords>
+            <Keywords name="Numbers, extras1">.E E </Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">: , ; ( ) = &lt; &gt; # | + - * / ^ . &amp;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">SUBMODEL PROCEDURE</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">ENDSUBMODEL ENDPROCEDURE</Keywords>
+            <Keywords name="Folders in code2, open">SETS DATA CALC INIT</Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close">ENDSETS ENDDATA ENDCALC ENDINIT</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">MODEL MODEL: END SETS SETS: ENDSETS DATA DATA: ENDDATA CALC CALC: ENDCALC SUBMODEL SUBMODEL: ENDSUBMODEL PROCEDURE PROCEDURE: ENDPROCEDURE INIT INIT: ENDINIT MAX MIN TITLE</Keywords>
+            <Keywords name="Keywords2"></Keywords>
+            <Keywords name="Keywords3">@ABS @ACOS @ACOSH @ALLDIFF @APISET @ASIN @ASINH @ATAN @ATAN2 @ATANH @BIN @BLOCKROW @BND @BREAK @CARD @CHARTBAR @CHARTBUBBLE @CHARTCONTOUR @CHARTCURVE @CHARTHISTO @CHARTLINE @CHARTNETARC @CHARTNETNODE @CHARTPCONTOUR @CHARTPCURVE @CHARTPIE @CHARTPSURFACE @CHARTRADAR @CHARTSCATTER @CHARTSPACETIME @CHARTSURFACE @CHARTTORNADO @CHOLESKY @COS @COSH @DEBUG @DETERMINANT @DIVERT @DUAL @EIGEN @ELSE @ENDIF @EXP @FILE @FLOOR @FOR @FORMAT @FPA @FPL @FREE @GEN @GENDUAL @GIN @IF @IFC @IN @INDEX @INSERT @INT @INTEGRAL @INVERSE @ITERS @LGM @LOG @LOG10 @LOGB @MAX @MIN @MOD @MTXMUL @NAME @NEWLINE @NEXTKBEST @NORMINV @NORMSINV @OBJBND @ODBC @OLE @PAUSE @PBETACDF @PBETAINV @PBETAPDF @PBINOCDF @PBINOINV @PBINOPDF @PBN @PBTBNCDF @PBTBNINV @PBTBNPDF @PCACYCDF @PCACYINV @PCACYPDF @PCHISCDF @PCHISINV @PCHISPDF @PCX @PEB @PEL @PEXPOCDF @PEXPOINV @PEXPOPDF @PFD @PFDSTCDF @PFDSTINV @PFDSTPDF @PFS @PGAMMCDF @PGAMMINV @PGAMMPDF @PGEOMCDF @PGEOMINV @PGEOMPDF @PGMBLCDF @PGMBLINV @PGMBLPDF @PHG @PHYPGCDF @PHYPGINV @PHYPGPDF @PI @PIC @PLAPLCDF @PLAPLINV @PLAPLPDF @PLGSTCDF @PLGSTINV @PLGSTPDF @PLOGNCDF @PLOGNINV @PLOGNPDF @PLOGRCDF @PLOGRINV @PLOGRPDF @PNEGBCDF @PNEGBINV @PNEGBPDF @PNORMINV @PNORMCDF @PNORMPDF @POINTER @POSD @POW @PPL @PPOISCDF @PPOISINV @PPOISPDF @PPRTOCDF @PPRTOINV @PPRTOPDF @PPS @PRIORITY @PROD @PSL @PSMSTCDF @PSMSTINV @PSMSTPDF @PSN @PSTUTCDF @PSTUTINV @PSTUTPDF @PTD @PTRIACDF @PTRIAINV @PTRIAPDF @PUNIFCDF @PUNIFINV @PUNIFPDF @PWEIBCDF @PWEIBINV @PWEIBPDF @QRAND @QRFACTOR @RAND @RANGED @RANGEU @RANK @READLN @READRM @REGRESS @RELEASE @ROUND @ROUNDDOWN @ROUNDUP @SEMIC @SET @SIGN @SIN @SINH @SIZE @SMAX @SMIN @SMPI @SMPS @SOLU @SOLVE @SORT @SOS1 @SOS2 @SOS3 @SPCHANCE @SPCORRPEARSON @SPCORRKENDALL @SPCORRSPEARMAN @SPDISTABLE @SPDISTBETA @SPDISTBINO @SPDISTBTBN @SPDISTCACY @SPDISTCHIS @SPDISTEXPO @SPDISTFDST @SPDISTGAMM @SPDISTGEOM @SPDISTGMBL @SPDISTHYPG @SPDISTLAPL @SPDISTLGST @SPDISTLOGN @SPDISTLOGR @SPDISTNEGB @SPDISTNORM @SPDISTPOIS @SPDISTPRTO @SPDISTSMST @SPDISTSTUT @SPDISTTABLE @SPDISTTRIA @SPDISTUNIF @SPDISTWEIB @SPLOADSCEN @SPLOADSCENE @SPMAX @SPMEAN @SPMIN @SPNUMSCENE @SPPRBSCENE @SPRANDV @SPRNDVAR @SPROWSTG @SPSAMPSIZE @SPSTDDEV @SPSTGRNDV @SPSTGROW @SPSTGVAR @SPTABLEINST @SPTABLEOUTC @SPTABLERNDV @SPTABLESHAPE @SQR @SQRT @STATS @STATUS @STM2DAY @STM2DWK @STM2HR @STM2MIN @STM2MON @STM2SEC @STM2YMD @STM2YMDHMS @STM2YR @STMNOW @STOP @STRLEN @SUM @TABLE @TAN @TANH @TEXT @TIME @TRANSPOSE @USER @WARN @WHILE @WRAP @WRITE @WRITEFOR @YMD2STM</Keywords>
+            <Keywords name="Keywords4">CAT COM HELP MEM FRMPS RLPF RMPI RMPS TAKE DUAL GEN HIDE LISTFIX LOOK PICTURE SCENE SHOWNL STATS XDETEQ DIVERT RVRT SAVE SMPI SMPS DEBUG GO NONZ RANGE SOLU SOLUTION ALTER DELETE EXTEND PAGE PAUSE TERSE VERBOSE WIDTH APISET DBPWD DBUID FREEZE SET QUIT TIME</Keywords>
+            <Keywords name="Keywords5">ILFTOL FLFTOL INFTOL FNFTOL RELINT NOPTOL ITRSLW DERCMP ITRLIM TIMLIM OBJCTS MXMEMB CUTAPP ABSINT HEURIS HURDLE IPTOLA IPTOLR TIME2RL NODESL LENPAG LINLEN TERSEO STAWIN SPLASH OROUTE WNLINE WNTRIM STABAR FILFMT TOOLBR CHKDUP ECHOIN ERRDLG USEPNM NSTEEP NCRASH NSLPDR SELCON PRBLVL SOLVEL REDUCE SCALEM PRIMPR DUALPR DUALCO RCMPSN MREGEN BRANDR BRANPR CUTOFF STRONG REOPTB REOPTX MAXCTP RCTLIM GUBCTS FLWCTS LFTCTS PLOCTS DISCTS KNPCTS LATCTS GOMCTS COFCTS GCDCTS SCLRLM SCLRDL PRNCLR MULTIS USEQPR GLOBAL LNRISE LNBIGM LNDLTA BASCTS MAXCTR HUMNTM DECOMP GLBOPT GLBDLT GLBVBD GLBUBD GLBBRN GLBBXS GLBREF SUBOUT DBGCLD DBGWRM LCRASH BCROSS LOWMEM FILOUT DBGLVL UNARYM LINEAR LOPTOL SECORD NONNEG BIGMVL KILLSC TATSLV KBESTS LCORES LCORE1 LCORE2 LCORE3 LCORE4 SCALEW REFRAQ SPSMSZ SPSCON SPSEED SPMTHD SPXVAL SPMAXS PRECIS LOOPOP HEUCUT NUMBIN SPBIGM NSLPSV FORCEB NTHRDS MTMODE BNPBLK BNPHEU REPROD STARTP DEFAULT</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06[ 07 08] 09# 10 11# 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF671E" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF9B9B" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="AD5BFF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF006C" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FFA851" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="8080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="868686" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
